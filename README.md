@@ -27,8 +27,8 @@ This project demonstrates a simple backdoor connection between a target **Window
   pip install pyinstaller
 
 ## Setup Instructions
--pyinstaller backdoor.py --onefile --noconsole
--This will generate 4 folders:
--The dist/ folder contains the compiled .exe file.
--You can safely delete the other 3: build/, __pycache__/, and the .spec file.
--✅ The compiled .exe in dist/ can bypass the latest Windows Defender (as of current testing).
+- pyinstaller backdoor.py --onefile --noconsole
+- This will generate 4 folders:
+- The dist/ folder contains the compiled .exe file.
+- You can safely delete the other 3: build/, __pycache__/, and the .spec file.
+- ✅ The compiled .exe in dist/ can bypass the latest Windows Defender (as of current testing).
