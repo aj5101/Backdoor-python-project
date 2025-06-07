@@ -10,3 +10,4 @@ To make this work, make sure the ip address and port are correctly set
 ‘Python3 server.py’ will start listenning for connections 
 Now if backdoor file is clicked, within 20 secs we will establish connection
 Commands like whom etc can be used to ensure connection
+PLEASE NOTE- THIS IS A VIRUS
