@@ -32,3 +32,14 @@ This project demonstrates a simple backdoor connection between a target **Window
 - The dist/ folder contains the compiled .exe file.
 - You can safely delete the other 3: build/, __pycache__/, and the .spec file.
 - ✅ The compiled .exe in dist/ can bypass the latest Windows Defender (as of current testing).
+
+
+##  Prepare the Server on Kali Linux
+- Make sure server.py has the correct IP address and port configured.
+- Start the server to listen for connections:
+- python3 server.py
+
+## Establishing the Connection
+- Once the .exe file from dist/ is executed on the target Windows machine, a connection should be established within 20 seconds.
+You can now run basic shell commands like:
+- whoami,dir,cd
